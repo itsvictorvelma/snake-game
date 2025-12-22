@@ -26,7 +26,7 @@ This is my first real project using classes to structure the game logic for a cl
 git clone <your-repo-url>
 ```
 2. Navigate to the project directory:
-3. 
+   
 ```bash
 cd snake-game
 ```

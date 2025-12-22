@@ -23,7 +23,7 @@ This is my first real project using classes to structure the game logic for a cl
 1. Clone the repository:
 
 ```bash
-git clone <your-repo-url>
+git clone <https://github.com/itsvictorvelma/snake-game>
 ```
 2. Navigate to the project directory:
    

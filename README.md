@@ -34,7 +34,8 @@ cd snake-game
 3. Run the game
 
 ```bash
-python main.py
+python main.py <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/bbcf8b16-44db-45f0-9b96-896fa607343c" />
+
 ```
 or 
 ```bash
@@ -61,5 +62,4 @@ snake_game/
 └── README.md
 ```
 ## Screenshots ##
-<img width="628" height="666" alt="Screenshot from 2025-12-21 18-12-49" src="https://github.com/user-attachments/assets/1d1d5fb2-d4ac-4f1c-9433-5d96f3659f44" />
-<img width="628" height="666" alt="Screenshot from 2025-12-21 18-13-13" src="https://github.com/user-attachments/assets/d139eb36-3cd1-44fc-85d3-939ebdf2c493" />
+<img width="1920" height="1080" alt="Screenshot from 2025-12-22 22-11-59" src="https://github.com/user-attachments/assets/8bc41ad5-0f61-490c-aa7a-123659051de8" />

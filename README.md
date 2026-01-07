@@ -61,5 +61,8 @@ snake_game/
 ├── scoreboard.py    # Score tracking and game over display
 └── README.md
 ```
-## Screenshots ##
+## Demo & Screenshots ##
+
+https://github.com/user-attachments/assets/f7dccf65-9edd-404d-8998-3664475d36ae
+
 <img width="1920" height="1080" alt="Screenshot from 2025-12-22 22-11-59" src="https://github.com/user-attachments/assets/8bc41ad5-0f61-490c-aa7a-123659051de8" />

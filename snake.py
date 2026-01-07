@@ -8,9 +8,10 @@ DOWN = 270
 LEFT = 180
 RIGHT = 0
 
-class Snake:
 
+class Snake(Turtle):
     """Represents the snake in the game, handles movement and growth"""
+
     def __init__(self):
         self.segments = []
         self.create_snake()
@@ -24,9 +25,9 @@ class Snake:
     def add_segment(self, position):
         """Add a new segment at the given position"""
         segment = Turtle("square")
-        segment.speed(0)        # Instant movement
+        segment.speed(0)  # Instant movement
         segment.color("white")
-        segment.penup()         # No drawing lines
+        segment.penup()  # No drawing lines
         segment.goto(position)
         self.segments.append(segment)
 
@@ -51,13 +52,22 @@ class Snake:
         if self.head.heading() != UP:
             self.head.setheading(DOWN)
 
-    def right(self):
+    def move_right(self):
         if self.head.heading() != LEFT:
             self.head.setheading(RIGHT)
 
-    def left(self):
+    def move_left(self):
         if self.head.heading() != RIGHT:
             self.head.setheading(LEFT)
 
+    # Reset snake position and size to start
 
+    def reset(self):
+        for seg in self.segments:
+            seg.goto(
+                1000, 1000
+            )  # send old snake wayyy off the screen (little hacky ik but it works lol)
 
+        self.segments.clear()
+        self.create_snake()
+        self.head = self.segments[0]

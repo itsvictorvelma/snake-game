@@ -34,7 +34,7 @@ cd snake-game
 3. Run the game
 
 ```bash
-python main.py <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/bbcf8b16-44db-45f0-9b96-896fa607343c" />
+python main.py
 
 ```
 or 
